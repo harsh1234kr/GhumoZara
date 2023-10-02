@@ -11,7 +11,7 @@ struct MainView: View {
                     Label("Restaurants", systemImage: "fork.knife")
                 }
             
-            CategoryView(category: "Accommodations", imageName: "house.fill")
+            CategoryView(category: "Stays", imageName: "house.fill")
                 .tabItem {
                     Label("Stay", systemImage: "house.fill")
                 }
