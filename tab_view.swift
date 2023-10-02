@@ -18,7 +18,7 @@ struct MainTabView: View {
             AccommodationsView()
                 .tabItem {
                     Image(systemName: "house.fill")
-                    Text("Accommodations")
+                    Text("Stays")
                 }
         }
     }
