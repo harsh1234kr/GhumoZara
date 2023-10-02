@@ -25,21 +25,21 @@ struct MainTabView: View {
 }
 
 struct AttractionsView: View {
-    // Your Attraction view code here
+    // Attraction view code here
     var body: some View {
         Text("List of attractions will appear here.")
     }
 }
 
 struct RestaurantsView: View {
-    // Your Restaurants view code here
+    // Restaurants view code here
     var body: some View {
         Text("List of restaurants will appear here.")
     }
 }
 
 struct AccommodationsView: View {
-    // Your Accommodations view code here
+    // Accommodations view code here
     var body: some View {
         Text("List of accommodations will appear here.")
     }
