@@ -1,0 +1,52 @@
+import SwiftUI
+
+struct MainTabView: View {
+    var body: some View {
+        TabView {
+            AttractionsView()
+                .tabItem {
+                    Image(systemName: "star.fill")
+                    Text("Attractions")
+                }
+            
+            RestaurantsView()
+                .tabItem {
+                    Image(systemName: "fork.knife")
+                    Text("Restaurants")
+                }
+            
+            AccommodationsView()
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Accommodations")
+                }
+        }
+    }
+}
+
+struct AttractionsView: View {
+    // Your Attraction view code here
+    var body: some View {
+        Text("List of attractions will appear here.")
+    }
+}
+
+struct RestaurantsView: View {
+    // Your Restaurants view code here
+    var body: some View {
+        Text("List of restaurants will appear here.")
+    }
+}
+
+struct AccommodationsView: View {
+    // Your Accommodations view code here
+    var body: some View {
+        Text("List of accommodations will appear here.")
+    }
+}
+
+struct MainTabView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainTabView()
+    }
+}
