@@ -22,3 +22,9 @@ struct CategoryView: View {
         }
     }
 }
+
+struct SearchBar: View {
+    @Binding var text: String
+    var placeholder: String
+
+   
