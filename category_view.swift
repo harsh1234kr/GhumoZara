@@ -87,7 +87,10 @@ let samplePlaces = [
 // Placeholder DetailView
 struct DetailView: View {
     var place: Place
-
+    var body: some View {
+        Text(place.name)
+    }
+}
     
 
 
