@@ -50,5 +50,29 @@ struct SearchBar: View {
                         }
                     }
                 )
-               
+                .padding(.horizontal, 10)
+        }
+        .padding(.top, 10)
+    }
+}
+
+struct PlaceRow: View {
+    var place: Place
+    
+    var body: some View {
+        HStack {
+            Image(systemName: "photo") // Placeholder until we integrate real images
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 50, height: 50)
+                .clipped()
+            VStack(alignment: .leading) {
+                Text(place.name).font(.headline)
+                Text(place.description).font(.subheadline)
+            }
+        }
+    }
+}
+
+
    
