@@ -14,9 +14,9 @@ struct DetailView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .padding()
+            // Title
+            Text(place.name)
+                .font(.largeTitle)
+                .padding([.leading, .trailing], 20)
             
-            
-
-
- 
-
+           
