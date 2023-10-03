@@ -29,5 +29,10 @@ struct DetailView: View {
                 Text("Price: \(place.price ?? "Free")")
             }
             .padding([.leading, .trailing, .bottom], 20)
+            // Map
+            Map(coordinateRegion: $region)
+                .frame(height: 200)
+                .cornerRadius(10)
+                .padding([.leading, .trailing], 20)
             
             
