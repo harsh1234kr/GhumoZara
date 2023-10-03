@@ -9,4 +9,14 @@ struct DetailView: View {
     )
         var body: some View {
         ScrollView {
-          
+            // Image
+            Image(systemName: "photo")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .padding()
+            
+            
+
+
+ 
+
