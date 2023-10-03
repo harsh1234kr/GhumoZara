@@ -6,7 +6,7 @@ struct MainView: View {
                     Label("Attractions", systemImage: "star.fill")
                 }
             
-            CategoryView(category: "Restaurants", imageName: "fork.knife")
+           (category: "Restaurants", imageName: "fork.knife")
                 .tabItem {
                     Label("Restaurants", systemImage: "fork.knife")
                 }
