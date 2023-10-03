@@ -18,5 +18,16 @@ struct DetailView: View {
             Text(place.name)
                 .font(.largeTitle)
                 .padding([.leading, .trailing], 20)
+             // Description
+            Text(place.description)
+                .padding([.leading, .trailing, .bottom], 20)
             
-           
+            // Additional Info Section
+            VStack(alignment: .leading, spacing: 10) {
+                Text("Contact: \(place.contactInfo ?? "N/A")")
+                Text("Timings: \(place.timings ?? "N/A")")
+                Text("Price: \(place.price ?? "Free")")
+            }
+            .padding([.leading, .trailing, .bottom], 20)
+            
+            
