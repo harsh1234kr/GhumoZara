@@ -34,5 +34,37 @@ struct DetailView: View {
                 .frame(height: 200)
                 .cornerRadius(10)
                 .padding([.leading, .trailing], 20)
+            // Reviews (Placeholder for now)
+            VStack(alignment: .leading) {
+                Text("Reviews")
+                    .font(.title2)
+                    .padding([.leading, .trailing], 20)
+                
+                ForEach(place.reviews ?? [], id: \.self) { review in
+                    Text(review)
+                        .padding()
+                        .background(Color.gray.opacity(0.1))
+                        .cornerRadius(8)
+                        .padding([.leading, .trailing, .bottom], 20)
+                }
+            }
+            
+        }
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+
+            
+            
+
+
+ 
+
+            
+           
+
+            
+            
             
             
