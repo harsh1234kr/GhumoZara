@@ -35,5 +35,14 @@ struct RestaurantsView: View {
         Text("List of restaurants will appear here.")
     }
 }
+struct AccommodationsView: View {
+    // Accommodations view code here
+    var body: some View {
+        Text("List of accommodations will appear here.")
+    }
+}
+
+
+
 
 
