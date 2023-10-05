@@ -7,6 +7,21 @@ struct MainTabView: View {
                     Image(systemName: "star.fill")
                     Text("Attractions")
                 }
+                        RestaurantsView()
+                .tabItem {
+                    Image(systemName: "fork.knife")
+                    Text("Restaurants")
+                }
+            
+            AccommodationsView()
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Stays")
+                }
+        }
+    }
+}
+
             
 
 
