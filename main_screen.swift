@@ -52,4 +52,10 @@ struct DetailView: View {
         Text(place.name)
     }
 }
+struct Place: Identifiable {
+    var id: Int
+    var name: String
+    var description: String
+}
+
 
