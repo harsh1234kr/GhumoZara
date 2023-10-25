@@ -39,13 +39,6 @@ struct AccommodationsView: View {
         Text("List of accommodations will appear here.")
     }
 }
-struct MainTabView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainTabView()
-    }
-}
-
-
 
 
 
