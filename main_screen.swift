@@ -44,4 +44,19 @@ struct CategoryView: View {
     }
 }
 
-// Placeholder DetailView
+struct DetailView: View {
+    let place: Place
+
+    var body: some View {
+        Text(place.name)
+    }
+}
+struct Place: Identifiable {
+    var id: Int
+    var name: String
+    var description: String
+}
+
+
+
+
