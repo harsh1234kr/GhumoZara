@@ -85,13 +85,4 @@ let samplePlaces = [
     Place(id: 2, name: "Sample Place 2", description: "Description 2")
 ]
 
-struct DetailView: View {
-    var place: Place
-    var body: some View {
-        Text(place.name)
-    }
-}
-    
-
-
    
