@@ -53,6 +53,13 @@ struct DetailView: View {
         .navigationBarTitleDisplayMode(.inline)
     }
 }
+extension Place {
+    // Added some optional fields to the Place struct for demonstration
+    var contactInfo: String? { return nil }
+    var timings: String? { return nil }
+    var price: String? { return nil }
+    var reviews: [String]? { return nil }
+}
 
 
             
